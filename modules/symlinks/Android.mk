@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8226)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WCNSS_qcom_wlan_factory_nv.bin
